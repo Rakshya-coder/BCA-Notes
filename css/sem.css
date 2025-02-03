@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Style for search results */
+.search-results {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.search-results h1 {
+    color: #0B7691;
+    margin-bottom: 20px;
+}
+.search-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+.search-results ul li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.search-results ul li h2 {
+    color: #0B7691;
+    margin-bottom: 5px;
+}
+.search-results h2{
+    color: #0B7691;
+    margin-bottom: 5px;
+}
+/* Style for notes page */
+body {
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #0B7691; 
+    color: #fff;
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+.sem-links{
+    font-size: 1.2 rem;
+    margin-top: 3px;
+    color: #dddada;
+}
+.sem-links a{
+    text-decoration: none;
+    color: #dddada;
+}
+.sem-links a:hover{
+     color: #7edcfb;
+}
+main {
+    padding: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.semesters, .subject-list, .pdf-list {
+    list-style-type: none;
+    padding: 0;
+}
+.semester, .subject-list li, .pdf-list li {
+    background-color: #e2e2e2;
+    margin-bottom: 10px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.semester h2, .subject-list li a, .pdf-list li a {
+    margin: 0;
+}
+.semester p {
+    margin: 0.5rem 0;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0B7691; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #005b72; 
+}
+.sub-header{
+    background-color: #0B7691;
+    color: #fff;
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.uploadbtn{
+    background-color: #0B7691;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 7px;
+}
